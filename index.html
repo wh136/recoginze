@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>农田对象的分类及语义标注方法研究</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" charset="utf-8" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML,https://wh136.github.io/myCDN/javascript/MathJaxLocal.js"></script>
+</head>
+<body>
+<h2>农田对象的分类及语义标注方法研究</h2>
+<div id="article" >
+    <div class="mid" style="display: flex;  flex-direction: column; justify-content: center;align-items: center;">
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;数字图像处理与分析是农业现代化中的一个重要的技术。为实现农田中的对象分类和语义标注，本文首先利用农田中场景不同对象的颜色特征，实现了农田图像的灰度化，以此为基础，分别利用K-means聚类方法结合阈值法，实现了农田图像的分割。然后利用直方图的相似度和颜色特征向量，基于支持向量机（SVM）分类器，	实现了未知农田图像中对象的分类及语义标注。论文对大田作业场景中智能农机的视觉环境感知的研究具有一定的参考意义。
+        </div>
+        <div style="width: 100%">
+            <h3>预备条件</h3>
+            <a href="https://opencv.org/releases.html">OpenCV</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.visualstudio.com/">Visual Studio</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">图片数据</a> &nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div style="width: 100%">
+            <h2>研究目的与意义</h2>
+        </div>
+        <div>
+            (1)农业现代化与无人机技术发展<br>
+            (2)农业图像处理在精准农业(Precision Agriculture )方面发展越来越迅速，使用信息技术，把空间的变化，定时，定位定量的实施农业技术操作和管理。可以精准的进行农药投放,利用机器视觉和图像分割技术实现对农田对象的分割和识别，可为定点变量喷洒提供参[MeyerGE2004]。
+
+        </div>
+        <div>
+            <h2 style="width: 100%" >农田图像的获取和预处理</h2>
+            本文以西北农林科技大学北校区试验田的农业试验田为拍摄地点， 拍摄时间为 2015‎年‎ 5‎ 月‎ 23‎ 日每天中的不同时段不同光照条件下拍摄的 66 张图片, 分辨率为 4208*3120 保存为 sRGB 颜色空间以 JPEG 的格式保存.
+        </div>
+        <div>
+            <img src="./graph/1.png">
+        </div>
+        <div style="width: 100%;">
+            <h2>农田图像的预处理</h2>
+            农田图像的预处理，对于后续的图像分割，分类以及标注有一定的积极影响。预处理能够消除因为拍摄器材或者其他因素的干扰，可以突出目标的对象信息。
+        </div>
+        
+        <div style="height: 100px"></div>
+    </div>
+
+</div>
+</body>
+</html>

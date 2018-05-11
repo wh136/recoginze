@@ -1,0 +1,14 @@
+#article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mid {
+    width: 1000px;
+
+}
+
+.article_content {
+    display: block;
+}
